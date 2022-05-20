@@ -7,13 +7,18 @@ import { AppComponent } from './app.component';
 // My Components
 import { HeaderComponent } from '../templates/menu/HeaderComponent.component';
 import { AboutMe } from 'src/templates/AboutMe/AboutMe.component';
-
+import { BoxComponent } from './components/box/box.component';
+import { Experience } from '../templates/Experience/Experience.component';
+import { Education } from 'src/templates/Education/Education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AboutMe,
+    BoxComponent,
+    Experience,
+    Education
   ],
   imports: [
     BrowserModule,
