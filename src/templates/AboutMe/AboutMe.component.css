@@ -1,0 +1,47 @@
+.about-me {
+    position: relative;
+    height: 100vh;
+    background-color: #e5e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+}
+
+.about-container {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-me img {
+    z-index: 1;
+    width: 30%;
+}
+
+.about-me .about-info {
+    margin-left: 10%;
+}
+
+.about-me .about-info h2 {
+    z-index: 1;
+    font-size: 3rem;
+}
+
+.about-me .about-info button {
+    z-index: 1;
+    padding: 15px;
+    width: 150px;
+    background-color: rgb(63, 110, 240);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+}
